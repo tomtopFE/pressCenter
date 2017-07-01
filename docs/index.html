@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>press-center</title>
+	<style>
+		*{margin:0;padding:0;}
+		.tab{width:80%;margin:20px auto 0;max-width:1200px;}
+		.tab h2{text-align:center;}
+		.tab .tab-nav{width:100%;list-style-type:none;text-align:center;margin:10px 0;}
+		.tab .tab-nav li{display:inline-block;padding:10px;border-bottom:2px solid #ffffff;cursor:pointer;}
+		.tab .tab-nav li:hover{border-bottom-color:#29a7ff;}
+		.tab .tab-nav li.active{border-bottom-color:#29a7ff;}
+		.tab .tab-items{width:100%;}
+		.item{display:none;position:relative;}
+		.item.show{display:block;}
+		.item .copy{position:absolute;right:0px;top:-32px;cursor:pointer;border:1px solid #fff;padding:2px;}
+		.item .copy.success{border-color:#60a917;}
+		.item textarea{width:100%;min-height:500px;padding:10px;}
+	</style>
+</head>
+<body>
+	<section class="tab">
+		<h2>品牌站press-center页面代码</h2>
+		<ul class="tab-nav"></ul>
+		<div class="tab-items"></div>
+	</section>
+<script id="code" type="text/html">
+	<div class="pressCenter" id="pressCenter">
+		<h1>Press Center</h1>
+        {{each news as value index}}
+        <div class="news">
+            <div class="news_img"><img src="img/{{value.img}}" alt=""></div>
+            <div class="news_info">
+                <p class="time">{{value.time}}</p>
+                <h3 class="title"><a href="{{value.link}}">{{value.title}}</a></h3>
+                <p class="text">{{value.text}}</p>
+                <a class="link" href="{{value.link}}">Read More>></a>
+            </div>
+        </div>
+        {{/each}}
+	</div>
+</script>
+<script src="js/zepto.min.js"></script>
+<script src="js/template.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="js/zepto.getcode.js"></script>
+<script>
+	$('.tab').getcode({
+		type: ['koogeek', 'dodocool'],
+		githubUrl: 'https://raw.githubusercontent.com/tomtopFE/pressCenter/master',
+		projectName: 'presscenter'
+	})
+</script>
+</body>
+</html>
