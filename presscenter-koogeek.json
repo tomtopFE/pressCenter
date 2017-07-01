@@ -1,0 +1,18 @@
+{
+	"news": [
+		{
+			"img": "//static.koogeek.com/koogeek/img/macitynet.png",
+			"time": "2016/5/15",
+			"title": "Recensione Koogeek S1, la bilancia impedenziometrica che si abbina allo smartphone",
+			"text": "Koogeek S1 fa quel che promette.",
+			"link": "//www.macitynet.it/recensione-koogeek-s1-la-bilancia-impedenziometrica-si-abbina-allo-smartphone/"
+		},
+		{
+			"img": "//static.koogeek.com/koogeek/img/mojandroid.png",
+			"time": "2016/8/24",
+			"title": "Koogeek je nová značka vecí inteligentnej domácnosti so skvelou cenou z Číny",
+			"text": "V čínskom obchode TomTop sa objavili nové zariadenia značky koogeek , ktoré zaujmú nielen svojou výbavou, ale najmä veľmi atraktívnou cenou.",
+			"link": "//www.mojandroid.sk/koogeek-inteligentne-zariadenia-cina/"
+		}
+	]
+}
