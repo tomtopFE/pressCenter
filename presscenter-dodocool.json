@@ -1,8 +1,14 @@
 {
 	"news": [
 		{
+			"img": "http://deal.koogeek.com/img/logo/default.jpg",
+			"time": "2017/01/01",
+			"title": "标题",
+			"text": "描述"
+		},
+		{
 			"img": "//act.dodocool.com/img/logo/ag.png",
-			"time": "2016/10/15",
+			"time": "vf dfsasedf ds",
 			"title": "dodocool hi-res in-ear earphones review",
 			"text": "the dodocool Hi-res in-ear earbuds are comfortable, are great for taking calls and offer a great all around music experience at a solid price.",
 			"link": "//www.androidguys.com/2016/10/16/dodocool-hi-res-in-ear-earphones-review/"
